@@ -1,0 +1,42 @@
+# macOS specific
+.DS_Store
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*~
+
+# sbt specific
+dist/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/local-plugins.sbt
+project/target/
+.history
+.bsp
+.metals
+.bloop
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings
+classes/
+
+# IntelliJ specific
+.idea/
+.idea_modules
+/.worksheet/
+
+# Dotty-IDE specific
+.dotty-ide-artifact
+.dotty-ide.json
